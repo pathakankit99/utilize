@@ -1,0 +1,25 @@
+.MyDetails{
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 20vw;
+    min-height: 100vh;
+    background-color: rgb(15, 26, 88);
+}
+.Center{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (max-width:700px){
+    .MyDetails{
+        width: 100vw;
+        min-height: auto;
+        height: 70px;
+        flex-direction: row;
+        align-items: center;
+        z-index: 10;
+    }
+}

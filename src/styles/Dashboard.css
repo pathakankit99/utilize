@@ -1,0 +1,7 @@
+.Dashboard{
+    max-width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+}

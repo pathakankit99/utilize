@@ -1,0 +1,99 @@
+.Data{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(15, 6, 65);
+  margin-left: 20vw;
+  width: 100vw;
+}
+.Data h5{
+  font-size: 3rem;
+  text-align: center;
+  text-transform: uppercase;
+}
+.orderCard{
+  width: 70vw;
+  display: flex;
+  justify-content: flex-start;
+  background-color: rgb(127, 47, 255);
+  margin-bottom: 10px;
+  padding: 5px;
+  border-radius: 10px;
+  transition: all 1s;
+}
+.orderCard:hover{
+  cursor: pointer;
+  background-color: rgb(66, 19, 141) ;
+}
+.orderCardContent{
+  display: flex;
+  width: 95%;
+  justify-content: space-around;
+  align-items: center;
+}
+.orderCard svg:hover{
+  color: rgb(0, 217, 255);
+}
+.orderCardContent h6{
+  width: 50%;
+}
+
+.chakra-modal__content-container{
+    background-color: rgb(6, 8, 22);
+  }
+  .chakra-modal__content{
+  }
+  .chakra-modal__header{
+    color: rgb(5, 14, 68);
+    padding: 10px;
+    text-align: center;
+    font-size: 2rem;
+    text-transform: uppercase;
+  }
+  form{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .InputGroup{
+    width: 300px;
+    padding: 10px;
+  }
+  .InputGroup h3{
+    padding-bottom: 5px;
+    font-weight: normal;
+  }
+ .chakra-modal__close-btn{
+   display: none;
+ }
+
+ button{
+   margin-right: 10px !important;
+   -webkit-transition: all 0.5s;
+ }
+
+ button:hover{
+   cursor: pointer;
+ }
+
+ .Close{
+   background-color: rgb(163, 28, 28);
+ }
+ .Close:hover{
+   background-color: rgb(87, 2, 2);
+ }
+
+ @media screen and (max-width: 700px){
+   .Data{
+     width: 100vw;
+     margin-left: 0;
+     margin-top: 70px;
+   }
+   .orderCard{
+     width: 95%;
+   }
+   .orderCard h6{
+     font-size: 0.7rem;
+   }
+ }
